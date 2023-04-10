@@ -1,0 +1,123 @@
+[0.007s] Invoking command in '/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/cpp01_topic
+[0.057s] -- The C compiler identification is GNU 11.3.0
+[0.113s] -- The CXX compiler identification is GNU 11.3.0
+[0.122s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.478s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.556s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.596s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.601s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.609s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.714s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.716s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.822s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.848s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.894s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.906s] -- Looking for pthread.h
+[0.993s] -- Looking for pthread.h - found
+[0.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.184s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.185s] -- Found Threads: TRUE  
+[1.364s] -- Found base_interfaces_demo: 0.0.0 (/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[1.366s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.441s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.442s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/include>
+[1.442s] -- Configured cppcheck exclude dirs and/or files: 
+[1.443s] -- Added test 'lint_cmake' to check CMake code style
+[1.443s] -- Added test 'uncrustify' to check C / C++ code style
+[1.444s] -- Configured uncrustify additional arguments: 
+[1.444s] -- Added test 'xmllint' to check XML markup files
+[1.445s] -- Configuring done
+[1.454s] -- Generating done
+[1.456s] -- Build files have been written to: /home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/build/cpp01_topic
+[1.466s] Invoked command in '/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/cpp01_topic
+[1.468s] Invoking command in '/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/build/cpp01_topic': AMENT_PREFIX_PATH=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/build/cpp01_topic -- -j8 -l8
+[1.515s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp01_talker_str.dir/src/cpp01_talker_str.cpp.o[0m
+[4.148s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.148s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:6:21:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&, rclcpp::SignalHandlerOptions)[m[K’
+[4.148s]     6 |         [01;31m[Krclcpp::init()[m[K;
+[4.149s]       |         [01;31m[K~~~~~~~~~~~~^~[m[K
+[4.149s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.149s]                  from [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:1[m[K:
+[4.149s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:75:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.149s]    75 | [01;36m[Kinit[m[K(
+[4.149s]       | [01;36m[K^~~~[m[K
+[4.181s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.181s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.182s]                  from [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:1[m[K:
+[4.182s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Klogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[4.182s]    12 |         RCLCPP_INFO(node->[01;31m[Klogger[m[K(),"hello world!");
+[4.182s]       |                           [01;31m[K^~~~~~[m[K
+[4.182s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Klogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[4.182s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.183s]    12 |         [01;31m[KRCLCPP_INFO[m[K(node->logger(),"hello world!");
+[4.183s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.187s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.187s]    12 |         [01;31m[KRCLCPP_INFO[m[K(node->logger(),"hello world!");
+[4.187s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.187s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.188s]    12 |         [01;31m[KRCLCPP_INFO[m[K(node->logger(),"hello world!");
+[4.188s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.188s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.188s]    12 |         [01;31m[KRCLCPP_INFO[m[K(node->logger(),"hello world!");
+[4.188s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.188s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.188s]    12 |         [01;31m[KRCLCPP_INFO[m[K(node->logger(),"hello world!");
+[4.188s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[4.188s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.189s]                  from [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:1[m[K:
+[4.189s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Klogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[4.189s]    12 |         RCLCPP_INFO(node->[01;31m[Klogger[m[K(),"hello world!");
+[4.189s]       |                           [01;31m[K^~~~~~[m[K
+[4.189s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:12:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Klogger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[4.189s]    12 |         RCLCPP_INFO(node->[01;31m[Klogger[m[K(),"hello world!");
+[4.189s]       |                           [01;31m[K^~~~~~[m[K
+[4.189s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.189s]     3 | int main([01;35m[Kint argc[m[K, char ** argv)
+[4.189s]       |          [01;35m[K~~~~^~~~[m[K
+[4.189s] [01m[K/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/cpp01_topic/src/cpp01_talker_str.cpp:3:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.189s]     3 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+[4.189s]       |                    [01;35m[K~~~~~~~~^~~~[m[K
+[4.654s] gmake[2]: *** [CMakeFiles/cpp01_talker_str.dir/build.make:76: CMakeFiles/cpp01_talker_str.dir/src/cpp01_talker_str.cpp.o] Error 1
+[4.654s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp01_talker_str.dir/all] Error 2
+[4.654s] gmake: *** [Makefile:146: all] Error 2
+[4.656s] Invoked command in '/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/build/cpp01_topic' returned '2': AMENT_PREFIX_PATH=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sophia/workspace/code/ros/new_ros2/ws01_plumbing/src/build/cpp01_topic -- -j8 -l8

@@ -1,0 +1,16 @@
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/lib/pkg01_hellowrold_cpp/helloworld
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_hellowrold_cpp
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_hellowrold_cpp
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/environment/ament_prefix_path.sh
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/environment/ament_prefix_path.dsv
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/environment/path.sh
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/environment/path.dsv
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/local_setup.bash
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/local_setup.sh
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/local_setup.zsh
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/local_setup.dsv
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/package.dsv
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/ament_index/resource_index/packages/pkg01_hellowrold_cpp
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/cmake/pkg01_hellowrold_cppConfig.cmake
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/cmake/pkg01_hellowrold_cppConfig-version.cmake
+/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp/share/pkg01_hellowrold_cpp/package.xml

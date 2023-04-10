@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+20fd27d83dd929858ce167febb80f9e7 CMakeFiles/pkg01_hellowrold_cpp_uninstall

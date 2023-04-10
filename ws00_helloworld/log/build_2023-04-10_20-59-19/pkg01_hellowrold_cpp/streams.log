@@ -1,0 +1,5 @@
+[0.018s] Invoking command in '/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/build/pkg01_hellowrold_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/src/pkg01_hellowrold_cpp -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp
+[0.026s] [0mCMake Error: Error: generator : Ninja
+[0.026s] Does not match the generator used previously: Unix Makefiles
+[0.026s] Either remove the CMakeCache.txt file and CMakeFiles directory or choose a different binary directory.[0m
+[0.028s] Invoked command in '/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/build/pkg01_hellowrold_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/src/pkg01_hellowrold_cpp -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/sophia/workspace/code/ros/new_ros2/ws00_helloworld/install/pkg01_hellowrold_cpp
